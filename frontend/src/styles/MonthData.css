@@ -1,0 +1,41 @@
+.month-data{
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #f13239, #cb0304);
+    color: white;
+    border-collapse: collapse;
+    scroll-behavior: smooth;
+    table-layout: fixed;
+}
+
+.month-data th, td {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.4);
+}
+.month-data td{
+    cursor: pointer;
+}
+.month-data th{
+    font-size: 20px;
+    height: 60px;
+}
+.month-data td{
+    height: 40px;
+}
+
+.month-data-date{
+    width: 80px;
+}
+.month-saturday td{
+    cursor: auto;
+    background-color: #ac2424;
+}
+
+.month-today td{
+    background-color: #305ee1c9;
+}
+.month-data a{
+    color: unset;
+    width: unset;
+    text-decoration: unset;
+}

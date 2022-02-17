@@ -1,0 +1,23 @@
+:root{
+  --light-red: #ee1d23;
+  --red: rgb(228, 6, 19);
+  --reder: rgb(201, 6, 19);
+}
+body{
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  box-sizing: border-box;
+  font-family: open-sans, sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.shadow{
+  box-shadow: 0 2px 2px 0px rgb(0 0 0 / 25%)
+}
+@font-face {
+  font-family: open-sans;
+  src: url(../fonts/OpenSans.ttf);
+}
